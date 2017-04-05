@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-gumka {
+    max-width: 1400px;
+    min-width: 960px;
+    margin: auto;
+}
+
+.clear-fix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+header>div {
+    float: left;
+    width: 33.333333333%;
+    height: auto;
+/*    background: #ccc;*/
+}
+
+header li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+}
+
+header li a {
+    text-decoration: none;
+}
+
+header div.image-logo {
+    display: inline-block;
+}
+
+div.header-logo {
+    text-align: center;
+}
+
+.block1 {
+    padding: 10px 20px;;
+/*    background: #ccc;*/
+}
+
+
+.box-content {
+
+}
+
+/*.box-content aside,
+.box-content article {
+    background: #ccc;
+    border: 1px solid #241d1d;
+}*/
+
+.box-content aside {
+    float: left;
+    width: 25%;
+    height: auto;
+    padding: 5px 10px;
+}
+
+/*.block-news {
+    margin-bottom: 20px;
+}*/
+
+.box-content aside li {
+    list-style: none;
+}
+
+.box-content .aside-menu a{
+    text-decoration: none;
+}
+
+.box-content article {
+    float: left;
+    width: 75%;
+    height: auto;
+    padding: 5px 10px;
+}
+
+article div.img-left{
+    float: left;
+    padding-right: 5px;
+}
+
+.box-content article img.vajrasana-right {
+    float: right;
+}
+
+.content-bottom .bef-foot1,
+.content-bottom .bef-foot2 {
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+}
+
+
+footer li {
+    width: 25%;
+/*    background: #ccc;*/
+    list-style: none;
+    float: left;
+    padding: 10px 10px;
+}
+
+footer li a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
