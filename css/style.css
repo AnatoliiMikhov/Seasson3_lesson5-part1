@@ -14,6 +14,10 @@
     display: block;
 }
 
+p {
+    text-indent: 1rem;
+}
+
 header {
     margin-bottom: 10px;
 }
@@ -72,6 +76,9 @@ div.header-logo {
 
 .box-content aside li {
     list-style: none;
+    padding: 2px 5px;
+    background: #efeded;
+    border-bottom: 1px solid #433737;
 }
 
 .box-content .aside-menu a{
@@ -85,14 +92,15 @@ div.header-logo {
     padding: 5px 50px 5px 20px;
 }
 
-article div.img-left{
+article figure.img-left{
     float: left;
     padding-right: 5px;
 }
 
-.box-content article img.vajrasana-right {
+article figure .vajrasana-right{
     float: right;
 }
+
 
 .content-bottom .bef-foot1,
 .content-bottom .bef-foot2 {
